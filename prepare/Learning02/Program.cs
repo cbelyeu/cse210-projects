@@ -5,13 +5,13 @@ class Program
     static void Main(string[] args) {
         Job job1 = new Job();
         job1._company = "Evil.inc";
-        job1._jobTitle = "henchman";
+        job1._jobTitle = "Henchman";
         job1._startYear = 1800;
         job1._endYear = 1900;
 
         Job job2 = new Job();
         job2._company = "Heros.co";
-        job2._jobTitle = "sidekick";
+        job2._jobTitle = "Sidekick";
         job2._startYear = 1911;
         job2._endYear = 2019;
         
