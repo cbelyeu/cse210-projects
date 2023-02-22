@@ -11,6 +11,7 @@ class Program
         Console.WriteLine(myScripture.ScriptureToString());
         UserInput = Console.ReadLine();
         while(UserInput != "quit"){
+            Console.Clear();
             myScripture.HideOneWord();
             Console.WriteLine(myScripture.ScriptureToString());
             UserInput = Console.ReadLine();
