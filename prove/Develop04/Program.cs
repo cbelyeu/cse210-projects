@@ -1,3 +1,8 @@
+//How I displayed creativity: 
+//I added an option for the user to view how many Activities total they did, 
+//as well as how many of each type.
+//I also updated the CountDown function to be able to handle two-digit numbers if required.
+
 using System;
 
 class Program
