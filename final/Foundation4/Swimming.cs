@@ -2,7 +2,6 @@ using System;
 
 class Swimming : Activity {
     private double _laps;
-    private double _milesPerLap = 50 * 0.62;
     
     public Swimming(int duration, double laps) : base(duration) {
         _activityName = "Swimming";
@@ -13,7 +12,7 @@ class Swimming : Activity {
     {
         //laps are 50 meters each
         //0.62 * 50 * laps yields the number of miles per lap
-        return _laps * _milesPerLap;
+        return _laps * 50/1000 * 0.62;
     }
 
     public override double GetSpeed()
