@@ -20,6 +20,6 @@ class Activity {
         return 0;
     }
     public string GetSummary() {
-        return _date + " " + _activityName + "(" + _duration + " min): Distance " + String.Format("{0:0}",GetDistance()) + " miles, Speed " + GetSpeed() + " mph, Pace: " + GetPace() + " min per mile";
+        return _date + " " + _activityName + "(" + _duration + " min): Distance " + Math.Round(GetDistance(),1) + " miles, Speed " + Math.Round(GetSpeed(),1) + " mph, Pace: " + Math.Round(GetPace(),1) + " min per mile";
     }
 }
